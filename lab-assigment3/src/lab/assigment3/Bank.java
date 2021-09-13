@@ -41,13 +41,13 @@ public void updateBalance(double balance){
 public double getbalance(){
     return balance;
 }
-public void setCustomerName(){
+public void setCustomerName(String customername){
     this.customerName = customerName;
 }
 public String getCustomerName(){
     return customerName;
 }
-public void setPhoneNumber(){
+public void setPhoneNumber(String phonenumber){
     this.phoneNumber = phoneNumber;
 }
 public String phoneNumber(){
