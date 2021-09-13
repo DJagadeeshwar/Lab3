@@ -26,7 +26,7 @@ public Bank(int number, double balance, String customerName, String phoneNumber)
     this.phoneNumber = phoneNumber;
     System.out.println("Account constructor parameters called");
 }
-public void setNumber(){
+public void setNumber(int Number){
     this.number = number;
 }
 public int getnumber(){
@@ -50,7 +50,7 @@ public String getCustomerName(){
 public void setPhoneNumber(String phonenumber){
     this.phoneNumber = phoneNumber;
 }
-public String phoneNumber(){
+public String getphoneNumber(){
     return phoneNumber = phoneNumber;
 }
 public String ToString(){
