@@ -25,8 +25,9 @@ public class LabAssigment3 {
         System.out.println("New balance is "+finalbal);
         double withdraw = 500.0;
         double finalbal2 = finalbal - withdraw;
-    
+        bank.setbalance(finalbal2);
         System.out.println("withdraw of 500 processed," + " Remaining Balance " + finalbal2);
+        System.out.println("To Sring Called" + "\n" +bank.ToString());
 
         
         
