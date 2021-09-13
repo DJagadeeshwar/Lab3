@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package labassigment3;
+package ws2;
 
 /**
  *
  * @author S545702
  */
-public class Labassigment3 {
+public class WS2 {
 
     /**
      * @param args the command line arguments
