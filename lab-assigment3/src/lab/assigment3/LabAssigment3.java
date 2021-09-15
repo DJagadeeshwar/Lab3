@@ -16,6 +16,7 @@ public class LabAssigment3 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Bank a= new Bank ();
         Bank bank= new Bank(123456, 1000, "jagadeesh", "8328624372");
         double mainbalance = bank.getbalance();
         System.out.println(bank.ToString());
